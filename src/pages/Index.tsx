@@ -8,6 +8,7 @@ import Testimonials from '@/components/Testimonials';
 import AffiliateProgram from '@/components/AffiliateProgram';
 import CallToAction from '@/components/CallToAction';
 import Footer from '@/components/Footer';
+import Seo from '@/components/Seo';
 
 const Index = () => {
   useEffect(() => {
@@ -34,6 +35,10 @@ const Index = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <Seo 
+        title="Floral Designer - Diseña Arreglos Florales Personalizados con IA"
+        description="Crea arreglos florales únicos adaptados a tus necesidades con nuestra aplicación intuitiva basada en IA."
+      />
       <Navbar />
       <main>
         <Hero />
