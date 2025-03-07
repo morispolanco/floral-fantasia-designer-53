@@ -92,13 +92,19 @@ const AffiliateProgram = () => {
               </div>
               
               <div className="text-center">
-                <Button 
-                  size="lg" 
-                  icon={<Share2 size={18} />} 
-                  iconPosition="left"
+                <a 
+                  href="https://form.jotform.com/250656769818070" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
                 >
-                  Regístrate como Afiliado
-                </Button>
+                  <Button 
+                    size="lg" 
+                    icon={<Share2 size={18} />} 
+                    iconPosition="left"
+                  >
+                    Regístrate como Afiliado
+                  </Button>
+                </a>
               </div>
             </div>
           </div>
