@@ -43,7 +43,7 @@ const DemoSection = () => {
             />
             <AnimatedText
               as="p"
-              text="Utiliza las siguientes credenciales para acceder a la versión de demostración y generar hasta 10 arreglos florales gratuitos."
+              text="Utiliza las siguientes credenciales para acceder a la versión de demostración y generar hasta 5 arreglos florales gratuitos."
               animation="slideUp"
               delay={100}
               className="section-subheading"
@@ -104,7 +104,7 @@ const DemoSection = () => {
                 <h4 className="text-lg font-medium mb-4">¿Qué puedes hacer con la demo?</h4>
                 <ul className="space-y-3">
                   {[
-                    'Diseñar hasta 10 arreglos florales personalizados',
+                    'Diseñar hasta 5 arreglos florales personalizados',
                     'Explorar todas las funcionalidades de la aplicación',
                     'Visualizar tus diseños con la IA generativa',
                     'Exportar los diseños creados a PDF',

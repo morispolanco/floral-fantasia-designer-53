@@ -32,7 +32,7 @@ const Features = () => {
     {
       icon: <BookOpen size={24} />,
       title: 'Demo Gratuita',
-      description: 'Prueba la aplicación con nuestra versión de demostración y genera hasta 10 arreglos florales gratuitos.'
+      description: 'Prueba la aplicación con nuestra versión de demostración y genera hasta 5 arreglos florales gratuitos.'
     },
     {
       icon: <FileDown size={24} />,
