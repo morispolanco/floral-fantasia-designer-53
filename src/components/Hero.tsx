@@ -64,7 +64,9 @@ const Hero = () => {
             <a href="https://florales.streamlit.app/" target="_blank" rel="noopener noreferrer">
               <Button size="lg" icon={<ArrowRight size={18} />}>Probar Demo</Button>
             </a>
-            <Button size="lg" variant="outline">Registrarse</Button>
+            <a href="https://form.jotform.com/250651149373053" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" variant="outline">Registrarse</Button>
+            </a>
           </div>
         </div>
         
@@ -74,7 +76,7 @@ const Hero = () => {
             className="relative z-10 transition-transform duration-200 ease-out"
           >
             <img 
-              src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07" 
+              src="https://images.unsplash.com/photo-1519378058457-4c29a0a2efac" 
               alt="Arreglo floral" 
               className="w-full h-auto rounded-3xl shadow-xl object-cover"
               style={{ 

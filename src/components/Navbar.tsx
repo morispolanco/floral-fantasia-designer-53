@@ -11,8 +11,7 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Inicio', href: '#hero' },
     { name: 'Características', href: '#features' },
-    { name: 'Demo', href: '#demo' },
-    { name: 'Contacto', href: '#cta' }
+    { name: 'Demo', href: '#demo' }
   ];
 
   useEffect(() => {

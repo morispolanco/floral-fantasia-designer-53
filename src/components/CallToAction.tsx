@@ -29,9 +29,11 @@ const CallToAction = () => {
                 Prueba la Demo Ahora
               </Button>
             </a>
-            <Button size="lg" variant="outline">
-              Regístrate para Acceso Ilimitado
-            </Button>
+            <a href="https://form.jotform.com/250651149373053" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" variant="outline">
+                Regístrate para Acceso Ilimitado
+              </Button>
+            </a>
           </div>
         </div>
       </div>
