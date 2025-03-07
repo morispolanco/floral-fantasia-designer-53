@@ -76,7 +76,7 @@ const Hero = () => {
             className="relative z-10 transition-transform duration-200 ease-out"
           >
             <img 
-              src="https://images.unsplash.com/photo-1519378058457-4c29a0a2efac" 
+              src="/lovable-uploads/a04b268a-bf0d-4735-805b-f24bce29e30f.png" 
               alt="Arreglo floral" 
               className="w-full h-auto rounded-3xl shadow-xl object-cover"
               style={{ 
