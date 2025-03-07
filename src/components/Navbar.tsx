@@ -34,7 +34,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a href="#" className="flex items-center space-x-2">
           <Flower2 className="h-8 w-8 text-primary" />
-          <span className="font-semibold text-lg">Floral Designer</span>
+          <span className="font-heading font-semibold text-lg">Floral Designer</span>
         </a>
 
         {/* Desktop menu */}
@@ -48,7 +48,6 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
-          <Button>Iniciar Sesión</Button>
         </nav>
 
         {/* Mobile menu button */}
@@ -84,7 +83,6 @@ const Navbar = () => {
                 {link.name}
               </a>
             ))}
-            <Button className="mt-2 w-full">Iniciar Sesión</Button>
           </nav>
         </div>
       </div>

@@ -13,7 +13,7 @@ const CallToAction = () => {
             as="h2"
             text="Únete a nosotros hoy mismo"
             animation="slideUp"
-            className="section-heading"
+            className="font-heading section-heading"
           />
           <AnimatedText
             as="p"
@@ -24,9 +24,11 @@ const CallToAction = () => {
           />
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10 animate-slideUp" style={{ animationDelay: '300ms' }}>
-            <Button size="lg" icon={<ArrowRight size={18} />}>
-              Prueba la Demo Ahora
-            </Button>
+            <a href="https://florales.streamlit.app/" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" icon={<ArrowRight size={18} />}>
+                Prueba la Demo Ahora
+              </Button>
+            </a>
             <Button size="lg" variant="outline">
               Regístrate para Acceso Ilimitado
             </Button>

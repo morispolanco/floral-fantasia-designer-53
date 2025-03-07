@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Copy, CheckCheck } from 'lucide-react';
+import { Copy, CheckCheck, ExternalLink } from 'lucide-react';
 import Button from './Button';
 import AnimatedText from './AnimatedText';
 
@@ -39,7 +39,7 @@ const DemoSection = () => {
               as="h2"
               text="Prueba nuestra aplicación sin registrarte"
               animation="slideUp"
-              className="section-heading"
+              className="font-heading section-heading"
             />
             <AnimatedText
               as="p"
@@ -91,7 +91,12 @@ const DemoSection = () => {
                   </div>
                 </div>
                 <div className="pt-4">
-                  <Button size="lg" className="w-full">Acceder a la Demo</Button>
+                  <a href="https://florales.streamlit.app/" target="_blank" rel="noopener noreferrer" className="block w-full">
+                    <Button size="lg" className="w-full">
+                      Acceder a la Demo 
+                      <ExternalLink size={16} className="ml-2" />
+                    </Button>
+                  </a>
                 </div>
               </div>
               

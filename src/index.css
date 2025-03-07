@@ -49,9 +49,13 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
     font-feature-settings: "ss01" 1, "ss02" 1, "cv01" 1, "cv02" 1;
     overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
   }
 
   /* Custom styling for scrollbar */

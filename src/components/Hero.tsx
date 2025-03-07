@@ -49,7 +49,7 @@ const Hero = () => {
             as="h1"
             text="Diseñador de Arreglos Florales Personalizados"
             animation="slideUp"
-            className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-6"
+            className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-6"
           />
           
           <AnimatedText
@@ -61,7 +61,9 @@ const Hero = () => {
           />
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-slideUp" style={{ animationDelay: '400ms' }}>
-            <Button size="lg" icon={<ArrowRight size={18} />}>Probar Demo</Button>
+            <a href="https://florales.streamlit.app/" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" icon={<ArrowRight size={18} />}>Probar Demo</Button>
+            </a>
             <Button size="lg" variant="outline">Registrarse</Button>
           </div>
         </div>
