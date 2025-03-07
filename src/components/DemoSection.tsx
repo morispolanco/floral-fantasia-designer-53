@@ -107,7 +107,6 @@ const DemoSection = () => {
                     'Diseñar hasta 5 arreglos florales personalizados por mes',
                     'Explorar todas las funcionalidades de la aplicación',
                     'Visualizar tus diseños con la IA generativa',
-                    'Guardar tus diseños en línea',
                     'Descubrir flores disponibles por región'
                   ].map((feature, index) => (
                     <li key={index} className="flex items-start">
@@ -120,10 +119,8 @@ const DemoSection = () => {
                   <h4 className="text-lg font-medium mb-3">Limitaciones de la demo:</h4>
                   <ul className="space-y-2">
                     {[
-                      'Sin exportación a archivos PDF',
-                      'Máximo 5 diseños por mes',
-                      'Sin guardado de preferencias personales',
-                      'Sin acceso a plantillas premium'
+                      'Sin exportación a PDF',
+                      'Máximo 5 diseños por mes'
                     ].map((limitation, index) => (
                       <li key={index} className="flex items-start">
                         <span className="text-muted-foreground mr-2">•</span>
