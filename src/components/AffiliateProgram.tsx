@@ -37,7 +37,7 @@ const AffiliateProgram = () => {
                     <UserPlus size={20} className="text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-medium">Invita a amigos y colegas</h4>
+                    <h4 className="font-medium">No hace falta ser suscriptor para referir amigos o colegas</h4>
                     <p className="text-muted-foreground text-sm">Comparte tu enlace único de afiliado con personas interesadas en diseño floral.</p>
                   </div>
                 </li>
