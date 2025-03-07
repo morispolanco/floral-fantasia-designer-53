@@ -43,7 +43,7 @@ const DemoSection = () => {
             />
             <AnimatedText
               as="p"
-              text="Utiliza las siguientes credenciales para acceder a la versión de demostración y generar hasta 5 arreglos florales gratuitos."
+              text="Utiliza las siguientes credenciales para acceder a la versión de demostración y generar hasta 5 arreglos florales gratuitos por mes."
               animation="slideUp"
               delay={100}
               className="section-subheading"
@@ -104,10 +104,10 @@ const DemoSection = () => {
                 <h4 className="text-lg font-medium mb-4">¿Qué puedes hacer con la demo?</h4>
                 <ul className="space-y-3">
                   {[
-                    'Diseñar hasta 5 arreglos florales personalizados',
+                    'Diseñar hasta 5 arreglos florales personalizados por mes',
                     'Explorar todas las funcionalidades de la aplicación',
                     'Visualizar tus diseños con la IA generativa',
-                    'Exportar los diseños creados a PDF',
+                    'Guardar tus diseños en línea',
                     'Descubrir flores disponibles por región'
                   ].map((feature, index) => (
                     <li key={index} className="flex items-start">
@@ -116,6 +116,22 @@ const DemoSection = () => {
                     </li>
                   ))}
                 </ul>
+                <div className="mt-6 pt-4 border-t border-gray-100">
+                  <h4 className="text-lg font-medium mb-3">Limitaciones de la demo:</h4>
+                  <ul className="space-y-2">
+                    {[
+                      'Sin exportación a archivos PDF',
+                      'Máximo 5 diseños por mes',
+                      'Sin guardado de preferencias personales',
+                      'Sin acceso a plantillas premium'
+                    ].map((limitation, index) => (
+                      <li key={index} className="flex items-start">
+                        <span className="text-muted-foreground mr-2">•</span>
+                        <span className="text-muted-foreground">{limitation}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
             </div>
           </div>

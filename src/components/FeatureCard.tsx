@@ -26,7 +26,7 @@ const FeatureCard = ({
       )}
     >
       <div className="flex flex-col items-start">
-        <div className="rounded-full p-3 bg-primary/10 text-primary-foreground/80 mb-5">
+        <div className="rounded-full p-3 bg-[#F8B7CD] text-primary-foreground/80 mb-5">
           {icon}
         </div>
         <AnimatedText
