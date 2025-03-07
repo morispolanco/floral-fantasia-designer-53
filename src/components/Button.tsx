@@ -22,7 +22,7 @@ const Button = ({
   const baseStyles = "inline-flex items-center justify-center rounded-full font-medium transition-all duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary/50 disabled:opacity-50 disabled:pointer-events-none";
   
   const variantStyles = {
-    primary: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-sm",
+    primary: "bg-[#D946EF] text-white hover:bg-[#C026D3] shadow-sm", // More intense pink color
     secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
     outline: "border border-input bg-background hover:bg-accent hover:text-accent-foreground",
     ghost: "hover:bg-accent hover:text-accent-foreground"
