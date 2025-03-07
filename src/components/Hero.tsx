@@ -84,7 +84,7 @@ const Hero = () => {
                 objectPosition: 'center'
               }}
             />
-            <div className="absolute -bottom-3 -right-3 md:-bottom-6 md:-right-6 glass px-4 py-3 md:px-6 md:py-4 rounded-2xl shadow-sm max-w-xs">
+            <div className="absolute -top-3 -right-3 md:-top-6 md:-right-6 glass px-4 py-3 md:px-6 md:py-4 rounded-2xl shadow-sm max-w-xs">
               <p className="text-sm md:text-base font-medium">✨ Diseña arreglos florales increíbles con un solo clic</p>
             </div>
           </div>
