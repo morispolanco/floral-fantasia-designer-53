@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { UserPlus, DollarSign, PercentIcon, Share2 } from 'lucide-react';
+import { UserPlus, DollarSign, PercentIcon, Share2, Mail } from 'lucide-react';
 import Button from './Button';
 import AnimatedText from './AnimatedText';
 
@@ -39,6 +39,16 @@ const AffiliateProgram = () => {
                   <div>
                     <h4 className="font-medium">Invita a amigos y colegas</h4>
                     <p className="text-muted-foreground text-sm">Comparte tu enlace único de afiliado con personas interesadas en diseño floral.</p>
+                  </div>
+                </li>
+                
+                <li className="flex items-start">
+                  <div className="mr-4 p-2 bg-primary/10 rounded-full">
+                    <Mail size={20} className="text-primary" />
+                  </div>
+                  <div>
+                    <h4 className="font-medium">Solicita que incluyan tu email</h4>
+                    <p className="text-muted-foreground text-sm">Pide a tus referidos que agreguen tu dirección de email en la sección correspondiente al momento de registrarse.</p>
                   </div>
                 </li>
                 
