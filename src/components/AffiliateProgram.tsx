@@ -22,6 +22,22 @@ const AffiliateProgram = () => {
             delay={100}
             className="section-subheading max-w-2xl mx-auto"
           />
+          
+          <div className="mt-6">
+            <a 
+              href="https://form.jotform.com/250656769818070" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <Button 
+                size="lg" 
+                icon={<Share2 size={18} />} 
+                iconPosition="left"
+              >
+                Regístrate como Afiliado
+              </Button>
+            </a>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 items-center">
@@ -99,22 +115,6 @@ const AffiliateProgram = () => {
                     <span className="font-medium">$632</span>
                   </li>
                 </ul>
-              </div>
-              
-              <div className="text-center">
-                <a 
-                  href="https://form.jotform.com/250656769818070" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                >
-                  <Button 
-                    size="lg" 
-                    icon={<Share2 size={18} />} 
-                    iconPosition="left"
-                  >
-                    Regístrate como Afiliado
-                  </Button>
-                </a>
               </div>
             </div>
           </div>
