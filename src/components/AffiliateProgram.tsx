@@ -38,7 +38,7 @@ const AffiliateProgram = () => {
                   </div>
                   <div>
                     <h4 className="font-medium">No hace falta ser suscriptor para referir amigos o colegas</h4>
-                    <p className="text-muted-foreground text-sm">Comparte tu enlace único de afiliado con personas interesadas en diseño floral.</p>
+                    <p className="text-muted-foreground text-sm">Comparte esta página con personas interesadas en diseño floral.</p>
                   </div>
                 </li>
                 
