@@ -19,7 +19,8 @@ const galleryImages = [
   "/lovable-uploads/3d07645f-688f-4844-9907-3dc4a02e4954.png",
   "/lovable-uploads/d645c929-7894-4651-8d46-2ee628efc2c2.png",
   "/lovable-uploads/263e52cb-d9ac-4ee7-bbdb-285000687bab.png",
-  "/lovable-uploads/9c14c1d5-ffc9-4f8a-9484-93cbc84215eb.png"
+  "/lovable-uploads/9c14c1d5-ffc9-4f8a-9484-93cbc84215eb.png",
+  "/lovable-uploads/aceaa3df-551b-482c-9345-f4fbbad0c158.png"
 ];
 
 interface GalleryProps {
