@@ -3,13 +3,14 @@ import React, { useEffect, useRef } from 'react';
 import { ArrowRight } from 'lucide-react';
 import Button from './Button';
 import AnimatedText from './AnimatedText';
+import Gallery from './Gallery';
 
 const Hero = () => {
-  const imageRef = useRef<HTMLDivElement>(null);
+  const galleryRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
-      if (!imageRef.current) return;
+      if (!galleryRef.current) return;
       
       const { clientX, clientY } = e;
       const { innerWidth, innerHeight } = window;
@@ -17,7 +18,7 @@ const Hero = () => {
       const moveX = (clientX - innerWidth / 2) / innerWidth * 10;
       const moveY = (clientY - innerHeight / 2) / innerHeight * 10;
       
-      imageRef.current.style.transform = `translate(${moveX}px, ${moveY}px)`;
+      galleryRef.current.style.transform = `translate(${moveX}px, ${moveY}px)`;
     };
 
     window.addEventListener('mousemove', handleMouseMove);
@@ -72,21 +73,10 @@ const Hero = () => {
         
         <div className="relative order-first lg:order-last flex justify-center items-center">
           <div 
-            ref={imageRef}
-            className="relative z-10 transition-transform duration-200 ease-out mx-auto"
+            ref={galleryRef}
+            className="relative z-10 transition-transform duration-200 ease-out w-full"
           >
-            <img 
-              src="/lovable-uploads/70d95cb8-a853-423d-8768-594a49e23f2d.png" 
-              alt="Arreglo floral" 
-              className="w-full h-auto rounded-3xl shadow-xl object-cover mx-auto"
-              style={{ 
-                maxHeight: '80vh',
-                objectPosition: 'center'
-              }}
-            />
-            <div className="absolute -top-3 -right-3 md:-top-6 md:-right-6 glass px-4 py-3 md:px-6 md:py-4 rounded-2xl shadow-sm max-w-xs">
-              <p className="text-sm md:text-base font-medium">✨ Diseña arreglos florales increíbles con un solo clic</p>
-            </div>
+            <Gallery />
           </div>
         </div>
       </div>
